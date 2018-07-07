@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head><title>CONTACT PAGE</title></head>
+    <body>
+        <h1>AQUAFOOD</h1>
+        <hr/>
+        <a href="home.html" target="_blank"><i>Home</i></a>
+          <a href="menu.html" target="_blank"><i>Menu</i></a>
+            <a href="contactus.html" target="_blank"><i>Contact us</i></a>
+        <hr/>
+        
+    <form action="contactus.html" method="post">
+        <p><i><b>Name:</b></i> <input type="text" id="name" name="userinput"></p>
+        <p><i><b>Email:</b></i> <input type="text" id="email" name="user input"></p>
+        <p><i><b>Phone:</b></i> <input type="text" id="phone" name="user input"></p>
+        <p><i><b>Reason for Inquiry:</b></i> 
+        <select id="reason" name="user input">
+            <option value="catering" default>Catering</option>
+            <option value="private party">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+                    </select> </p>
+        <p><i><b>Additional Information:</b></i> <textarea id="info"></textarea></p>
+        <p><i><b>Have you been to the restaurant?</b></i> 
+        <input type="radio" id="no" name="user input" value="no" checked>No
+            <input type="radio" id="yes" name="user input" value="yes">Yes </p><br>
+        <p><i><b>Best days to contact you:</b></i>
+        <input type="checkbox" id="M" name="user input" value="m">M
+        <input type="checkbox" id="T" name="user input" value="t">T
+        <input type="checkbox" id="W" name="user input" value="w">W
+        <input type="checkbox" id="TH" name="user input" value="th">TH
+        <input type="checkbox" id="F" name="user input" value="f">F</p>
+        <input type="button" value="Send Request">
+        </form>
+        <hr/>
+         <footer><p>Valley street,Apple Valley,Minnesota,55124</p>
+            <p>987-654-3210</p></footer>
+         
+        </body>
+</html>
