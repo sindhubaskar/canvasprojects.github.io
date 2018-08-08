@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head><title>CONTACT PAGE</title>
+    <head>
+         <title>CONTACT PAGE</title>
          <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-        </script>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
-     <link href="css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
-
-   <script rel="text/javascript" src="restaurant/js/validateForm.js">
-   </script>
-   <style>
-     .main-container .control-label{
-         font-size:20px;
-         font-weight: bold;
-         text-align: right;
-         font-style: italic;
-       }
-     .main-container{
-          margin-top: 5%;
-       }
-     </style>
-
- </head>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+         </script>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+         <link href="css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+         <script rel="text/javascript" src="file:///Users/sindhu/Documents/restaurant/js/validateForm.js">
+         </script>
+      <style>
+         .main-container .control-label{
+                font-size:20px;
+                font-weight: bold;
+                text-align: right;
+                font-style: italic;
+          }
+         .main-container{
+                margin-top: 5%;
+          }
+      </style>
+    </head>
     <body>
         
         <h1>AQUAFOOD</h1>
@@ -32,15 +31,14 @@
            <ul class="nav nav-tabs">
              <li class="nav-item">
                <a class="nav-link" href="home.html"><i class="glyphicon glyphicon-home" style="font-size:25px;"></i></a></li> 
-            <li class="nav-item">
+             <li class="nav-item">
                <a class="nav-link" href="menu.html">Menu</a></li> 
-           <li class="nav-item">
+             <li class="nav-item">
                <a class="nav-link" href="contactus.html">Contact us</a></li> 
-        
-        </ul>
+           </ul>
 
-        <form name="myform" onsubmit="return validateForm();">
-        <div class="main-container">
+        <form name="myform" onsubmit="return validateForm()">
+         <div class="main-container">
             <div class="form-group row">
               <label class="control-label form-label col-5" for="name1">Name:</label >
               <div class="col-5">
@@ -64,7 +62,6 @@
               <label class="control-label form-label col-5" for="reason">Reason for Inquiry:</label>
               <div class="col-7">
                <select> 
-                
                  <option value="catering" default>Catering</option>
                  <option value="private party">Private Party</option>
                  <option value="feedback">Feedback</option>
@@ -78,35 +75,30 @@
                 <textarea id="info"></textarea>
               </div>
            </div>
-
-            <div class="form-group row">
+           <div class="form-group row">
               <label class="control-label form-label col-5" for="been">Have you been to the restaurant?</label>
               <div class="col-7">
                 <label><input type="radio" id="yes" name="yes" for="yes" > Yes </label>
-               <label><input type="radio" id="no" name="no" for="no" checked> No</label> 
+                <label><input type="radio" id="no" name="no" for="no" checked> No</label> 
              </div>
             
            </div>
-
            <div class="form-group row">
               <label class="control-label form-label col-5" for="days">Best days to contact you?</label>
               <div class="col-7">
-                
                 <label><input type="checkbox" name="option" id="m"> M </label>
                 <label><input type="checkbox" name="option" id="t"> T </label>
                 <label><input type="checkbox" name="option" id="w"> W </label>
                 <label><input type="checkbox" name="option" id="th"> TH </label>
                 <label><input type="checkbox" name="option" id="f"> F </label>
-                
               </div>
            </div> 
            <div class="form-group row">
               <label class="control-label form-label col-5"></label>
-             <div class="col-7">
-              
-                <button type="submit" class="btn-btn" id="send"> Send Request </button>
-             </div>
-           </div>
+              <div class="col-7">
+                  <button type="submit" class="btn-btn" id="send"> Send Request </button>
+              </div>
+          </div>
          </div>
        
            <hr/>
