@@ -1,9 +1,9 @@
 function validateForm()
 {
 
-	var name1=document.getElementById('name1').value;
-	var email=document.getElementById('email').value;
-	var phone=document.getElementById('phone').value;
+    var name1=document.getElementById('name1').value;
+    var email=document.getElementById('email').value;
+    var phone=document.getElementById('phone').value;
     var info=document.getElementById('info').value;
     var by=document.myform.yes;
     var bn=document.myform.no;
